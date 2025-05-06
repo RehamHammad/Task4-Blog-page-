@@ -4,6 +4,7 @@
 }
 body{
     font-family: "Cabin Condensed", sans-serif;
+    background-color:#fce4ec ;
 }
 
 /* navbar */
@@ -24,22 +25,47 @@ body{
     font-size: 23px;
 }
 /*Home page*/
-#posts{
+h1{
+    font-size: 40px;
+    color:#880e4f;
     text-align: center;
-    display: grid;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
 }
-.post h2 a{
-    font-size: 28px;
-    text-decoration: none;
-    color: #333;
+.post{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px 20px;
 }
-.post p,time{
-    font-size: 15px;
-    line-height: 20px;
-    color: darkgray;
 
+.post h2 a{
+    font-size: 30px;
+    color: #6a1b9a;
+    text-decoration: none;
+    padding: 10px ;
+    margin: 30px;
+}
+
+.post .description{
+      padding: 10px 30px;
+      margin: 10px;
+      color: dimgray;
+}
+
+/* Blog page */
+.blog-post{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 30px;
+    line-height: 30px;
+}
+.blog-post h2{
+    font-size: 30px;
+    text-align: center;
+    color: #6a1b9a;
+    margin: 30px 0;
+}
+.blog-post p{
+    color: #555555;
+    padding: 10px 0;
 }
